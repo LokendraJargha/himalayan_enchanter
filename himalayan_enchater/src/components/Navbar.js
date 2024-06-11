@@ -6,8 +6,8 @@ import { FaHeart } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className=" h-20 flex justify-between items-center bg-customPale px-2 md:px-6 lg:px-20 xl:px-32 ">
-      <div className="logoholder flex items-center gap-3 ">
+    <div className=" h-20 flex justify-between bg-customPale px-2 md:px-6 lg:px-20 xl:px-32 ">
+      <div className="logoholder flex items-center  gap-3 ">
         <div className="h-14">
           <svg
             className="h-full"
@@ -27,7 +27,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="contact_details hidden lg:flex  gap-7">
+      <div className="contact_details hidden lg:flex items-center gap-7">
         {/* askdjfaslkd */}
         <div className="call">
           <p className="text-xs text-customGray italic">For general Inquiry</p>
@@ -59,14 +59,14 @@ export default function Navbar() {
         </div>
 
         {/* Language change */}
-        <div className="lang sel flex flex-col items-center gap-">
+        <div className="lang self-start flex flex-col items-center gap-3">
           <div className="flex items-center">
             <p className="underline">English</p>
             <IoMdArrowDropdown size={20} />
           </div>
           <div className="relative">
-            <FaHeart />
-            <div className=" bg-customOrange border-white border-4 absolute bottom-2 left-2 w-6 h-6 pl-1 text-sm text-white rounded-full">
+            <FaHeart size={20} />
+            <div className="absolute -top-3 -right-3 w-5 h-5 rounded-full text-xs bg-customOrange border-2 border-white flex items-center justify-center text-white">
               3
             </div>
           </div>
