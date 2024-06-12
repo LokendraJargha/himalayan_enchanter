@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Homepage from "./homepage/page";
 
 export default function Home() {
   return (
     <main>
-      loremasdjflkjaslkdf laksddjflkasjl fdkj aksf klsajd flkjaslkdfj lkajsd flkjasd dlfkj lskdjf lkjsaldf
+      <Homepage />
     </main>
   );
 }

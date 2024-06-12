@@ -1,7 +1,10 @@
+import HeroContent from "./hero"
+
 export default function Homepage () {
+
 return (
     <div>
-        Hello from homepage
+        <HeroContent />
     </div>
 )
 } 

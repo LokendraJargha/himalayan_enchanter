@@ -87,7 +87,7 @@ export default function Navbar() {
 
 const NavLinks = () =>{
   return(
-    <div className="flex justify-between items-center font-semibold px-4 ">
+    <div className="hidden lg:flex justify-between items-center font-semibold px-4 ">
       <div className="w-3/5">
         <ul className="flex justify-between">
           <li className="cursor-pointer border-b-4 border-transparent hover:border-customGray"><span>NEPAL TO</span><span>UR AND TRIPS</span></li>
