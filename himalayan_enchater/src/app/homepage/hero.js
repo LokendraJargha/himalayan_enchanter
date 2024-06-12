@@ -6,7 +6,7 @@ export default function HeroContent() {
   return (
     <div className="relative">
       <div className="w-full">
-        <img className="w-full" src="/image/hero.png" alt="hero image" />
+        <img className="w-full" src="/imgs/hero.png" alt="hero image" />
       </div>
       <Container
         className={
