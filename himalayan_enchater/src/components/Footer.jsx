@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <p>FOLLOW US ON:</p>
+            <p className="tracking-tight">FOLLOW US ON:</p>
             <p className="flex gap-2 mt-2 justify-center">
               <FaFacebookF className="bg-white text-gray-700 rounded-full p-1 w-8 h-8" />
               <FaInstagram className="bg-white text-gray-700 rounded-full p-1 w-8 h-8" />
@@ -33,9 +33,9 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row my-4">
-          <div className="w-1/4">
-            <h2 className="text-sm mb-2 md:text-xl font-semibold">
+        <div className="grid grid-rows-2 grid-cols-2 sm:grid-rows-1 sm:grid-cols-4  my-4">
+          <div className="">
+            <h2 className="text-sm mb-3 md:text-xl font-semibold">
               QUICK LINKS
             </h2>
             <ul className="flex flex-col gap-2">
@@ -44,8 +44,8 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="w-1/4">
-            <h2 className="text-sm mb-2 md:text-xl font-semibold">
+          <div className="">
+            <h2 className="text-sm mb-3 md:text-xl font-semibold">
               QUICK LINKS
             </h2>
             <ul className="flex flex-col gap-2">
@@ -54,8 +54,8 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="w-1/4">
-            <h2 className="text-sm mb-2 md:text-xl font-semibold">
+          <div className="">
+            <h2 className="text-sm mb-3 md:text-xl font-semibold">
               QUICK LINKS
             </h2>
             <ul className="flex flex-col gap-2">
@@ -64,8 +64,8 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="w-1/4">
-            <h2 className="text-sm mb-2 md:text-xl font-semibold">
+          <div className="">
+            <h2 className="text-sm mb-3 md:text-xl font-semibold">
               CONTACT US
             </h2>
             <div className="flex flex-col gap-8">
