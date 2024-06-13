@@ -1,19 +1,28 @@
+"use client"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import "./slider.css"
+import { useRef } from "react";
 
-export default function SliderComponent({
-  children,
-  slidesToShow,
-  slidesToScroll,
-  responsive,
-}) {
+const SliderComponent = ({children, show = 1, slide = 1, responsive,arrows = true}) => {
     const settings = {
-        slidesToShow,
-        slidesToScroll,
-        responsive,
+        slidesToShow:show,
+        slidesToScroll:slide,
+        arrows: arrows,
         dots: true,
-        autoplay: true
+        autoplay: true,
+        infinite: true,
+        responsive: responsive,
+        beforeChange: (current, next) =>{
+          console.log(current, next)
+        }
     }
-  return <Slider className="w-full" {...settings}>{children}</Slider>;
+  return(
+    <Slider {...settings}>
+      {children}
+    </Slider>
+  );
 }
+
+export default SliderComponent;

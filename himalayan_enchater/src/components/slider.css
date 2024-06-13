@@ -1,0 +1,9 @@
+.slick-dots{
+    position: absolute;
+    bottom: 10%;
+    z-index: 200;
+}
+
+.slick-dots li.slick-active button::before{
+    color: gray;
+}
