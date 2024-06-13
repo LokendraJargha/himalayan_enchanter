@@ -1,9 +1,14 @@
 .slick-dots{
     position: absolute;
-    bottom: 10%;
+    bottom: 2%;
     z-index: 200;
 }
 
-.slick-dots li.slick-active button::before{
-    color: gray;
-}
+ /* custom-slick.css */
+.slick-dots li button:before {
+    color: white; /* Change this to your desired color */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white; /* Change this to your desired color for active dots */
+  }

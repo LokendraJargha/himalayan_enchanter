@@ -14,9 +14,6 @@ const SliderComponent = ({children, show = 1, slide = 1, responsive,arrows = tru
         autoplay: true,
         infinite: true,
         responsive: responsive,
-        beforeChange: (current, next) =>{
-          console.log(current, next)
-        }
     }
   return(
     <Slider {...settings}>
