@@ -33,37 +33,25 @@ export default function Navbar() {
         </div>
 
         <div className="contact_details hidden lg:flex items-center gap-7">
-          {/* askdjfaslkd */}
-          <div className="call">
-            <p className="text-xs text-customGray italic">For general Inquiry</p>
-            <div className="flex">
-              <IoCall />
-              <p className="text-sm font-bold"> (+977) 9800000000</p>
-            </div>
-          </div>
-
-          {/* asdsadasdas */}
           <div className="chat">
             <p className="text-xs text-customGray italic">
               Chat with us for support
             </p>
-            <div className="flex">
+            <div className="flex gap-1">
               <FaWhatsapp />
               <FaViber />
               <p className="text-sm font-bold"> (+977) 9800000000</p>
             </div>
           </div>
-          {/* asdfasdf */}
 
-          <div className="chat">
-            <p className="text-xs text-customGray italic">For Booking</p>
-            <div className="flex">
+          <div className="flex items-end gap-1">
               <FaEnvelope />
+            <div className="flex flex-col">
+              <p className="text-xs text-customGray italic">For Booking</p>
               <p className="text-sm font-bold"> info@himalayanenchanter.com</p>
             </div>
           </div>
 
-          {/* Language change */}
           <div className="lang self-start flex flex-col items-center gap-3">
             <div className="flex items-center">
               <p className="underline">English</p>

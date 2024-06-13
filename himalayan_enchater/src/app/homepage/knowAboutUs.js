@@ -12,7 +12,7 @@ export default function KnowAboutUs() {
       >
         <div className="w-1/2 h-96 border-2 border-black hidden lg:block"></div>
         <div className="space-y-8 lg:w-1/2">
-          <h2 className={`${kaushan.className} text-3xl`}>
+          <h2 className={`${kaushan.className} text-4xl`}>
             <span className="relative">
               <span className="relative">Know about us</span>
               <span className="absolute left-3 -bottom-1 w-2/3 h-2 bg-customOrange"></span>
