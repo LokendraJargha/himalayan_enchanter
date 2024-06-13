@@ -4,6 +4,9 @@
     z-index: 200;
 }
 
+/* .slick-slide > div{
+  margin: 0 10px;
+} */
  /* custom-slick.css */
 .slick-dots li button:before {
     color: white; /* Change this to your desired color */

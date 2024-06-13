@@ -11,9 +11,8 @@ export default function HeroContent() {
         <div>
           <img src="/imgs/hero.png" alt="mountain" />
         </div>
-          <img className="w-full" src="/imgs/hero.png" alt="mountain" />
         <div>
-          <img src="/imgs/hero.png" alt="mountain" />
+          <img className="w-full" src="/imgs/hero.png" alt="mountain" />
         </div>
         <div>
           <img src="/imgs/hero.png" alt="mountain" />
